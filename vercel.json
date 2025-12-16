@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://taskmanager-backend-production-3581.up.railway.app/api/$1"
+    },
+    {
+      "source": "/socket.io/(.*)",
+      "destination": "https://taskmanager-backend-production-3581.up.railway.app/socket.io/$1"
+    }
+  ]
+}
